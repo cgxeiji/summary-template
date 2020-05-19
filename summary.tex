@@ -1,0 +1,92 @@
+\documentclass{kdl-summary}
+
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{graphicx}
+\usepackage{balance}
+\usepackage{booktabs}
+\usepackage{ragged2e}
+\usepackage{multicol}
+\usepackage[
+    backend=biber,
+    style=authoryear
+]{biblatex}
+\addbibresource{reference.bib}
+
+
+% Title of the article
+\title{KDL Paper Summary Sample File}
+% Your name
+\author{Firstname Lastname}
+
+\begin{document}
+\nocite{*}
+
+\twocolumn[\maketitle]
+
+% Include an icon that will help us remember the study (you can make it
+% yourself or search on the internet). The idea is to make a visual connection
+% with the research so we can say "Remember the paper with the cute cat? We can
+% use that analysis!".
+\memoryicon{icon.png}
+
+
+\begin{abstract}
+    We are going to use this template to summarize papers. This summary should
+    use easy language, no jargon allowed! (unless you explain it).
+    It has 4 sections, the \textbf{Abstract}, where you will copy/paste the
+    abstract of the paper; the \textbf{What's So Special} which says what is
+    new in the paper, what is the hypothesis, and the final conclusions; the
+    \textbf{Interesting Tools and Methods} section where you can mention surveys,
+    analysis, techniques, etc., used in the study; and the \textbf{You Should
+        Also Know!} section where you can put things that caught your eye, like
+    theories, definitions, anecdotes, among others.
+\end{abstract}
+
+\begin{novelty}
+    Make a summary with your own words.
+    Also, include the \textbf{hypothesis} and the
+    \textbf{conclusions}\footnote{You can include some footnotes.}.
+
+    Include an icon that will help us remember the study (you can make it
+    yourself or search on the internet). The idea is to make a visual connection
+    with the research so we can say: \emph{``Remember the paper with the cute cat? We can
+    use that analysis!''}.
+
+    You can fill the document until about the bottom of this paragraph.
+    Filler
+    text text text text text text text text text text
+    text text text text text text text text text text
+    text text text text text text text text text text
+    text text text text text text text text text text
+    text text text text text text text text text text
+    text text text text text text text text text text
+    text text text text text text text text text text
+    text text text text text text text text text text
+    text text text text text text text text text text
+    text text text text text text text text text text
+    text.
+\end{novelty}
+
+
+\begin{tools}
+    Did the author(s) use cool surveys or statistical analyses? We want to know
+    too!
+
+    \begin{itemize}
+        \item You can
+        \item Copy paste
+        \item This item list
+    \end{itemize}
+\end{tools}
+
+\begin{extra-info}
+    Did you find an interesting theory? Was the experiment really interesting
+    and you want to make it yourself? Tell us about it!
+
+    Try to keep all the information you want to share within this page.
+\end{extra-info}
+
+\printbibliography[title=Summary From:]
+
+\end{document}
