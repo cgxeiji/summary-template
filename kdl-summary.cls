@@ -2,8 +2,9 @@
 
 \typeout{KDL Paper Summary}
 \typeout{- original by Eiji Onchi}
+\typeout{- based of CHI-Extended Abstract Template}
 \typeout{}
-\typeout{Available at https://github.com/...}
+\typeout{Available at https://github.com/cgxeiji/summary-template}
 \typeout{}
 
 % Page Format
@@ -57,6 +58,7 @@
   breaklinks=true,
   bookmarksnumbered,
   pdfstartview={FitH},
+  pdfusetitle,
   final
 ]{hyperref}
 
